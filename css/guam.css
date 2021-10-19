@@ -227,8 +227,9 @@ footer{
     }
 }
 @media (max-width: 768px){
-    .carousel-item{
-        width: 200%;
+    .carousel-inner{
+        width: 260%;
+        overflow: hidden;
     }
     .maintext h1{
         font-size: 2rem!important;
