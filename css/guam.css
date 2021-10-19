@@ -1,0 +1,254 @@
+.navbar-custom {
+    background-color: rgba(244, 241, 239, 0.7);
+    color: #444;
+}
+/*
+header.masthead{
+    background: url(../images/mainimg_1.png) no-repeat 0 0;
+}
+*/
+/*content 효과*/
+
+
+/**************************************/
+header.masthead .masthead-content{
+    top: 0
+}
+header.masthead{
+    background-color: none;
+}
+.carousel .slide{
+    position: relative;
+}
+.container .px-5{
+    position: relative;
+}
+.maintext{
+    position:absolute;
+    bottom: 0;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+    z-index: 999;
+}
+.btn-primary{
+    padding: 0.2rem;
+}
+.mt-5 {
+    margin-top: 0.9rem !important;
+    margin-bottom: 6rem !important;
+}
+.btn-xl {
+    text-transform: uppercase;
+    padding: 0.9rem 2.5rem;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
+header.masthead .masthead-content .masthead-heading {
+    font-size: 4rem;
+}
+
+.travel, .content, .insta, .news{
+    width: 80%;
+    margin: 15rem auto;
+}
+.travel{
+    margin-top: -6rem;
+}
+.travel_text .maininfo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 2.5rem;
+}
+.info{
+    font-weight: normal;
+    margin: 8rem 0;
+    text-align: center;
+    font-size: 1rem;
+}
+.travelinside h4{
+    margin-top: 10px;
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+
+.box{
+    position: relative;
+    overflow: hidden;
+    color: #141414;
+    text-align: left;
+    line-height: 1.4em;
+    font-size: 16px;
+}
+.box * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+  }
+.box .infotext {
+    position: absolute;
+    top: calc(77%);
+    width: 100%;
+    color: #f2f2f2;
+    padding: 0 15px;
+  }
+.box .infotext:before {
+    position: absolute;
+    content: '';
+    z-index: 2;
+    bottom: 100%;
+    left: 0;
+    width: 100%;
+    height: 80px;
+  }
+.infotext h4 {
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    padding-bottom: 1.5rem;
+  }
+.infotext p {
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    opacity: 0.9;
+    padding-right: 15px;
+  }
+  @media(max-width :1090px){
+      .infotext h4{
+          padding-bottom: 0;
+          font-size: 1rem;
+      }
+      .infotext p{
+          font-size: 0.5rem;
+          line-height: 0.9rem;
+          display: none;
+      }
+      .box:hover .infotext h4{
+            font-size: 1.5rem;
+      }
+  }
+.box:hover .infotext,
+.box.hover .infotext {
+    top: 70px;
+  }
+.content_text  h1{
+    text-align: right;
+}
+.content_text .info{
+    text-align: right;
+    margin-top: 55px;
+}
+.insta_text .info{
+    text-align: left;
+    margin-top: 55px;
+}
+.news_text{text-align: right;}
+.news_text .info{
+    text-align: right;
+    margin-top: 55px;
+}
+.card{
+    background-color: #444;
+    color: #f2f2f2;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+.card-body{
+    border: none;
+    padding: 1rem;
+    overflow: hidden;
+    height: 250px;
+    margin-bottom: 10px;
+}
+.card-title{
+    font-size: 1.5rem;
+}
+.card-date{
+    font-size: 1rem;
+}
+.card-text{
+    font-size: 1rem;
+}
+footer{
+    background-color: #f4f1ef;
+}
+.top_footer{
+    padding:25px 0;
+    margin: 0 auto;
+    width: 80%;
+}
+.nav{
+    color: #444;
+    font-size: 13px;
+}
+.topnav .nav-link{
+    padding-right: 1.8rem;
+}
+.lastnav{
+    padding-right: 0;
+    font-size: 16px;
+}
+.lastnav span{
+    font-size: 13px;
+    color: #1dcec9;
+}
+.footer_text{
+    padding-top: 30px;
+}
+.footerline{
+    width: 100%;
+    height: 86px;
+    background-image: url(../images/bottom_line.png);
+}
+.bottomnav img{
+    vertical-align: middle;
+}
+.bottomnav .nav-link{
+    margin-top: 3rem;
+    text-align: center;
+    padding: 0 2rem;
+}
+.firstnav{
+    padding-left:0;
+}
+.bottom_footer{
+    height: 85px;
+    background-color: #1dcec9;
+    text-align: center;
+    line-height: 85px;
+    color: #f2f2f2;
+}
+@media (max-width: 992px){
+    .none{
+        display: none;
+    }
+}
+@media (max-width: 768px){
+    .card-body{
+        padding: 1rem;
+        overflow: hidden;
+        height: 200px;
+        margin-bottom: 10px;
+    }
+    .info{
+        font-size: 0.7rem;
+        margin-top: 5px!important;
+        margin: 2rem 0;
+    }
+    .travel_text .maininfo{
+        margin-bottom: 120px;
+    }
+    .travel, .content, .insta, .news{
+        margin: 10rem auto;
+    }
+    .none{
+        display: none;
+    }
+    .chamorro, .beach, .nature, .place, .shopping, .advanture{
+        margin: 0 auto;
+    }
+}
