@@ -48,7 +48,6 @@ header.masthead{
 header.masthead .masthead-content .masthead-heading {
     font-size: 4rem;
 }
-
 .travel, .content, .insta, .news{
     width: 80%;
     margin: 15rem auto;
@@ -228,6 +227,12 @@ footer{
     }
 }
 @media (max-width: 768px){
+    .carousel-item{
+        width: 200%;
+    }
+    .maintext h1{
+        font-size: 2rem!important;
+    }
     .card-body{
         padding: 1rem;
         overflow: hidden;
