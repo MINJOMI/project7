@@ -48,9 +48,10 @@ header.masthead{
 header.masthead .masthead-content .masthead-heading {
     font-size: 4rem;
 }
+
 .travel, .content, .insta, .news{
     width: 80%;
-    margin: 15rem auto;
+    margin: 10rem auto;
 }
 .travel{
     margin-top: -6rem;
@@ -62,7 +63,7 @@ header.masthead .masthead-content .masthead-heading {
 }
 .info{
     font-weight: normal;
-    margin: 8rem 0;
+    margin: 3rem 0;
     text-align: center;
     font-size: 1rem;
 }
@@ -107,13 +108,13 @@ header.masthead .masthead-content .masthead-heading {
     font-size: 1.5em;
     line-height: 1.2em;
     text-transform: uppercase;
-    padding-bottom: 1.5rem;
   }
 .infotext p {
     font-size: 0.9em;
     letter-spacing: 1px;
     opacity: 0.9;
-    padding-right: 15px;
+    padding-top: 5rem;
+    padding-right: 1rem;
   }
   @media(max-width :1090px){
       .infotext h4{
@@ -122,6 +123,7 @@ header.masthead .masthead-content .masthead-heading {
       }
       .infotext p{
           font-size: 0.5rem;
+          padding-top: 3rem;
           line-height: 0.9rem;
           display: none;
       }
@@ -138,16 +140,16 @@ header.masthead .masthead-content .masthead-heading {
 }
 .content_text .info{
     text-align: right;
-    margin-top: 55px;
+    margin-top: 20px;
 }
 .insta_text .info{
     text-align: left;
-    margin-top: 55px;
+    margin-top: 20px;
 }
 .news_text{text-align: right;}
 .news_text .info{
     text-align: right;
-    margin-top: 55px;
+    margin-top: 20px;
 }
 .card{
     background-color: #444;
